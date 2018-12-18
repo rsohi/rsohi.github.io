@@ -366,7 +366,6 @@
 
   btnAdd.addEventListener('click', (e) => {
     // hide our user interface that shows our A2HS button
-    alert();
     btnAdd.style.display = 'none';
     // Show the prompt
     deferredPrompt.prompt();
